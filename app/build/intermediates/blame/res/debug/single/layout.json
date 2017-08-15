@@ -64,12 +64,12 @@
         "source": "/home/marcus/.android/build-cache/9a2683d4a9802d19658e524303d890adc12ab577/output/res/layout/notification_action.xml"
     },
     {
-        "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/marcus/.android/build-cache/9a2683d4a9802d19658e524303d890adc12ab577/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/home/marcus/.android/build-cache/9a2683d4a9802d19658e524303d890adc12ab577/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/marcus/.android/build-cache/9a2683d4a9802d19658e524303d890adc12ab577/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
