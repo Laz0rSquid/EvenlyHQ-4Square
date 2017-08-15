@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="49f70cf6c9f1868e7c30198df2b72975b3cf54db">
+        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e8c265815f375b6dcdea45c0c9f2d9bd9e9598d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f36491ef6810d1f15673b2f8c019278ff929885e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marcus/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_789040de6305261f0cf04f73c91b388a73b6ccf7/classes.dex" />
+    </item>
+
+</items>

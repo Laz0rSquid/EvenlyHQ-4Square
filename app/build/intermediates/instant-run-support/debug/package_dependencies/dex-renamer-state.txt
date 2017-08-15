@@ -1,0 +1,4 @@
+#Tue Aug 15 14:01:57 CEST 2017
+base.0=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_789040de6305261f0cf04f73c91b388a73b6ccf7
+renamed.0=classes.dex
+file.0=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_789040de6305261f0cf04f73c91b388a73b6ccf7/classes.dex

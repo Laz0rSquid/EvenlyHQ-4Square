@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:7:22-64
+uses-sdk
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:9:5-11:41
+	android:targetSdkVersion
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:10:9-34
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+		INJECTED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml
+application
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:13:5-26:19
+	android:label
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:15:9-45
+activity#com.javacodegeeks.foursquareapiexample.EvenlyStartScreen
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:18:13-84
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/AndroidManifest.xml:23:27-74

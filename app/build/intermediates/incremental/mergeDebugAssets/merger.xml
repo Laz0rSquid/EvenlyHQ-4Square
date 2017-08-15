@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/src/main/assets"/><source path="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/src/debug/assets"/></dataSet></merger>

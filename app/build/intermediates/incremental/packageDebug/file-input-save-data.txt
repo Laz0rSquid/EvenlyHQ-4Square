@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Tue Aug 15 14:58:21 CEST 2017
+2.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_
+5.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f36491ef6810d1f15673b2f8c019278ff929885e/classes.dex
+5.set=DEX
+3.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_
+6.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+2.set=ANDROID_RESOURCE
+4.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e8c265815f375b6dcdea45c0c9f2d9bd9e9598d/classes.dex
+5.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f36491ef6810d1f15673b2f8c019278ff929885e
+4.set=ANDROID_RESOURCE
+6.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_
+1.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.set=ANDROID_RESOURCE
+2.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e8c265815f375b6dcdea45c0c9f2d9bd9e9598d
+3.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+3.set=ANDROID_RESOURCE
+1.base=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_
+4.file=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/resources-debug.ap_/res/layout/row_layout.xml
+0.set=DEX
