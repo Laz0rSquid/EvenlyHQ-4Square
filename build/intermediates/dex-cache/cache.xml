@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e6e3ef0daebe3fd4c23a5be2774c7257192c85ff">
-        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5d88f91744876f56a5ef87ed115eb5c460c10c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f42a06d6a5ccd322dc25cee19a46581db176d291/classes.dex" />
+        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fa9751d66899e6815158a1b9ea3eac615128478b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="01001ef047d08936acb197c2c7e6d9a9a3895386">
+        <dex dex="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33ae65b86787f516424aed9e7b5d269762abe349/classes.dex" />
     </item>
 
 </items>

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -524,7 +524,7 @@
                     "endOffset": 2015
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/colors.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 2062
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/colors.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 2113
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/colors.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2766,7 +2766,7 @@
                     "endOffset": 29916
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/dimens.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2785,7 +2785,7 @@
                     "endOffset": 29972
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/dimens.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -4134,7 +4134,7 @@
                     "endOffset": 34842
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/strings.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -4153,7 +4153,7 @@
                     "endOffset": 34896
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/strings.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -4287,7 +4287,7 @@
                     "endOffset": 35691
                 },
                 "from": {
-                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/values/styles.xml",
+                    "file": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

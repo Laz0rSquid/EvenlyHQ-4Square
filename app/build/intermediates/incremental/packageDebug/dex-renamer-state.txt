@@ -1,7 +1,7 @@
-#Tue Aug 15 15:34:02 CEST 2017
-base.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5d88f91744876f56a5ef87ed115eb5c460c10c
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f42a06d6a5ccd322dc25cee19a46581db176d291/classes.dex
-base.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f42a06d6a5ccd322dc25cee19a46581db176d291
-file.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9f5d88f91744876f56a5ef87ed115eb5c460c10c/classes.dex
+#Tue Aug 15 15:54:42 CEST 2017
+base.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33ae65b86787f516424aed9e7b5d269762abe349
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fa9751d66899e6815158a1b9ea3eac615128478b/classes.dex
+base.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fa9751d66899e6815158a1b9ea3eac615128478b
+file.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33ae65b86787f516424aed9e7b5d269762abe349/classes.dex
