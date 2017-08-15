@@ -1,4 +1,31 @@
-#Tue Aug 15 14:01:57 CEST 2017
-base.0=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_789040de6305261f0cf04f73c91b388a73b6ccf7
-renamed.0=classes.dex
-file.0=/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_789040de6305261f0cf04f73c91b388a73b6ccf7/classes.dex
+#Tue Aug 15 15:34:01 CEST 2017
+renamed.9=classes3.dex
+renamed.8=classes.dex
+renamed.7=classes7.dex
+renamed.6=classes2.dex
+renamed.5=classes4.dex
+renamed.4=classes9.dex
+renamed.3=classes6.dex
+renamed.2=classes5.dex
+base.9=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65b907e67584e29de466a6310aa05d802e6b0b66
+renamed.1=classes10.dex
+base.8=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b384ccd09be3c9961228425d167f7784bbf9713
+renamed.0=classes8.dex
+base.7=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a09e0b9f1d5a4c069c59a60e1814301e0c41fda
+base.6=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_345a1ac6a4477846d0eb182d1a14996c08f4c259
+base.5=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66aa5b3379d83973c64053b08e7d2ce90cf097a3
+base.4=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd4269dac0a650e32133b5b520787a4f96e54398
+base.3=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7892d4fcd08f877ef8fbf44305a232762dc09bde
+base.2=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_75bda5eea0b2cea092d537b4a139b109d5ec5ba4
+base.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_004a5ba237c3b7bf328c4c3319c524096ed0aba9
+base.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7e95ae28850a8199ee29423f211047955d80376
+file.9=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65b907e67584e29de466a6310aa05d802e6b0b66/classes.dex
+file.8=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b384ccd09be3c9961228425d167f7784bbf9713/classes.dex
+file.7=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a09e0b9f1d5a4c069c59a60e1814301e0c41fda/classes.dex
+file.6=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_345a1ac6a4477846d0eb182d1a14996c08f4c259/classes.dex
+file.5=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66aa5b3379d83973c64053b08e7d2ce90cf097a3/classes.dex
+file.4=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd4269dac0a650e32133b5b520787a4f96e54398/classes.dex
+file.3=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7892d4fcd08f877ef8fbf44305a232762dc09bde/classes.dex
+file.2=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_75bda5eea0b2cea092d537b4a139b109d5ec5ba4/classes.dex
+file.1=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_004a5ba237c3b7bf328c4c3319c524096ed0aba9/classes.dex
+file.0=/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7e95ae28850a8199ee29423f211047955d80376/classes.dex

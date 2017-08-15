@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
-        "source": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
-        "source": "/media/marcus/601C104B1C101E9A/AndroidProjects/AndroidFoursquareApiExample/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQAt4Square/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]
