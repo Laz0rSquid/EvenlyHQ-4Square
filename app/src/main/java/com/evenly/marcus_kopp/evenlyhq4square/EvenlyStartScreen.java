@@ -19,7 +19,9 @@ import org.json.JSONObject;
 
 import java.io.BufferedInputStream;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class EvenlyStartScreen extends ListActivity {
@@ -29,11 +31,14 @@ public class EvenlyStartScreen extends ListActivity {
     final String CLIENT_ID = "RL1CUD4M2TIKLSO2NXMBOEUVROTAFNPJZNRXHNDWXXMB0Q4K";
     final String CLIENT_SECRET = "52UEPPOGIYSSHTQP5HO3UCHRBGDA1DAAM1DOGD1KMEW2Z0GG";
 
+    // current date formatted to yyyyMMdd, needed for the API call
+    private String currentDateAsFormattedString;
+
     // hardcoded position of EvenlyHQ
     final String latitude = "52.500342";
     final String longitude = "13.425170";
 
-    // progress bar :3
+    // progress bar
     private ProgressBar progressBar = null;
 
     ArrayAdapter<String> myAdapter;
@@ -43,9 +48,17 @@ public class EvenlyStartScreen extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        progressBar = (ProgressBar)findViewById(R.id.progessbar);
+        currentDateAsFormattedString = getCurrentDateAsFormattedString();
+
+        progressBar = (ProgressBar) findViewById(R.id.progessbar);
         // calls to Foursquare venues search API
         new Foursquare().execute();
+    }
+
+    private String getCurrentDateAsFormattedString() {
+        Calendar c = Calendar.getInstance();
+        SimpleDateFormat df = new SimpleDateFormat("yyyyMMdd");
+        return df.format(c.getTime());
     }
 
     private class Foursquare extends AsyncTask<View, Void, String> {
@@ -54,7 +67,7 @@ public class EvenlyStartScreen extends ListActivity {
 
         @Override
         protected String doInBackground(View... urls) {
-            temp = makeCall("https://api.foursquare.com/v2/venues/search?client_id=" + CLIENT_ID + "&client_secret=" + CLIENT_SECRET + "&v=20170815&ll=" + latitude + "," + longitude + "");
+            temp = makeCall("https://api.foursquare.com/v2/venues/search?client_id=" + CLIENT_ID + "&client_secret=" + CLIENT_SECRET + "&v=" + currentDateAsFormattedString + "&ll=" + latitude + "," + longitude + "");
             return "";
         }
 
@@ -74,29 +87,21 @@ public class EvenlyStartScreen extends ListActivity {
             } else {
                 // all things went right
                 progressBar.setVisibility(View.GONE);
-                // parseFoursquare venues search result
+
+                // parse Foursquare venues search result into FoursquareVenues list
                 venuesList = (ArrayList<FoursquareVenue>) parseFoursquare(temp);
 
                 List<String> listTitle = new ArrayList<String>();
 
-                for (int i = 0; i < venuesList.size(); i++) {
-                    // make a list of the venus that are loaded in the list.
-
-
-                    if (i == 0) {
-
-                        TextView title = (TextView) findViewById(R.id.first_element);
-                        title.setText(venuesList.get(i).getName() + "\n" + venuesList.get(i).getCategory() + "\n" + venuesList.get(i).getAddress() + "\n" + venuesList.get(i).getCity());
-
-                    } else {
-                        // show the name, the category and the city
-                        listTitle.add(i - 1, venuesList.get(i).getName() + "\n" + venuesList.get(i).getCategory() + "\n" + venuesList.get(i).getAddress() + "\n" + venuesList.get(i).getCity());
-
-                    }
+                // Get info for title element (not working in emulator, works on my Samsung S5)
+                TextView title = (TextView) findViewById(R.id.first_element);
+                title.setText(venuesList.get(0).getName() + "\n" + venuesList.get(0).getCategory() + "\n" + venuesList.get(0).getAddress() + "\n" + venuesList.get(0).getCity());
+                for (int i = 1; i < venuesList.size(); i++) {
+                    // show name, category, address and city
+                    listTitle.add(i - 1, venuesList.get(i).getName() + "\n" + venuesList.get(i).getCategory() + "\n" + venuesList.get(i).getAddress() + "\n" + venuesList.get(i).getCity());
                 }
 
-                // set the results to the list
-                // and show them in the xml
+                // put result into xml
                 myAdapter = new ArrayAdapter<String>(EvenlyStartScreen.this, R.layout.row_layout, R.id.listText, listTitle);
                 setListAdapter(myAdapter);
             }
@@ -104,34 +109,25 @@ public class EvenlyStartScreen extends ListActivity {
     }
 
     public static String makeCall(String url) {
-
-        // string buffers the url
         StringBuffer buffer_string = new StringBuffer(url);
         String replyString = "";
-
-        // instanciate an HttpClient
         HttpClient httpclient = new DefaultHttpClient();
-        // instanciate an HttpGet
         HttpGet httpget = new HttpGet(buffer_string.toString());
 
         try {
-            // get the responce of the httpclient execution of the url
             HttpResponse response = httpclient.execute(httpget);
             InputStream is = response.getEntity().getContent();
 
-            // buffer input stream the result
             BufferedInputStream bis = new BufferedInputStream(is);
             ByteArrayBuffer baf = new ByteArrayBuffer(20);
             int current = 0;
             while ((current = bis.read()) != -1) {
                 baf.append((byte) current);
             }
-            // the result as a string is ready for parsing
             replyString = new String(baf.toByteArray());
         } catch (Exception e) {
             e.printStackTrace();
         }
-        // trim the whitespaces
         return replyString.trim();
     }
 
@@ -139,11 +135,10 @@ public class EvenlyStartScreen extends ListActivity {
 
         ArrayList<FoursquareVenue> temp = new ArrayList<FoursquareVenue>();
         try {
-
-            // make an jsonObject in order to parse the response
             JSONObject jsonObject = new JSONObject(response);
 
-            // make an jsonObject in order to parse the response
+            // traverse structure of JSON object to fill fields of FoursquareVenue
+            // currently only adds a venue to the list that has name, location, and address
             if (jsonObject.has("response")) {
                 if (jsonObject.getJSONObject("response").has("venues")) {
                     JSONArray venuesArray = jsonObject.getJSONObject("response").getJSONArray("venues");

@@ -2,6 +2,7 @@ package com.evenly.marcus_kopp.evenlyhq4square;
 
 public class FoursquareVenue {
 
+	// not used due to time constraints
     private int distance;
 
     private String name;

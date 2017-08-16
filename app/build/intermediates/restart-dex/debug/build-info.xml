@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
     build-mode="HOT_WARM"
-    density="mdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1502821902816"
+    timestamp="1502868082274"
     token="8137889913014153852"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="182" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="56" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="85" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
 
     <artifact
-        location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1502821855437"
+        timestamp="1502867088090"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
@@ -39,9 +42,6 @@
             type="SPLIT" />
         <artifact
             location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -69,12 +69,23 @@
             type="SPLIT" />
     </build>
     <build
+        build-mode="COLD"
+        timestamp="1502867609173"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
         build-mode="HOT_WARM"
-        timestamp="1502821902816"
+        timestamp="1502868082274"
         verifier="COMPATIBLE" >
         <artifact
-            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/media/marcus/601C104B1C101E9A/AndroidProjects/EvenlyHQ@4Square/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
